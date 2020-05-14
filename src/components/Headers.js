@@ -7,14 +7,14 @@ import { Button } from './Buttons';
 export const Nav = () => {
   return (
     <StyledNav role="navigation">
-      <Button path="https://airtable.com/">
+      <Button path="https://airtable.com/"> 
         <span role="img" aria-label="List">📍</span> List your business
       </Button>
        <Button path="mailto:me@mytowndelivers.com">
        <span role="img" aria-label="Email">📧</span> Email us
        </Button>
-       <Button path="https://www.facebook.com/mytowndelivers">
-       <span role="img" aria-label="Facebook">🙌</span> Follow on Facebook
+       <Button path="https://medium.com/ukdelivers">
+       <span role="img" aria-label="Medium">🙌</span> Follow on Medium
        </Button>
     </StyledNav>
   )
@@ -24,10 +24,9 @@ export const HeroHeader = ({ search }) => {
   return (
     <StyledHeroHeader role="banner" style={{ backgroundImage: `url(/images/Header@2x.png)` }}>
       <Container>
-        <h1>My Town Delivers</h1>
-        <p>Helping local restaurants, shops &amp; essential services that deliver direct to your door.</p>
-        <p>Try searching what you're looking for e.g. bread, coffee, beer, prescriptions:</p>
-        <LocationSearch />
+        <h1>UK Delivers</h1>
+        <p>We’re creating local listings directories for independent businesses delivering contact-free to your neighbourhood.</p>
+        { /* launch search with 9+ listings: <LocationSearch /> */ }
       </Container>
     </StyledHeroHeader >
   )
