@@ -30,22 +30,10 @@ collections:
     slug: "{{month}}-{{day}}-{{name}}"
     create: true # Allow users to create new documents in this collection
     fields:
-      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Name", name: "name", widget: "string" } 
       - { label: "Cover Image", name: "cover", widget: "image", multiple: false }
+      - { label: "Location", name: "location", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-        required: false
-        field: {label: "Tag", name: "tag", widget: "string"}
-      - { label: "Address", name: "address", widget: "string" }
       - { label: "Website", name: "website", widget: "string", required: false }
+      - { label: "Owner", name: "owner", widget: "string" }
       - { label: "Email", name: "email", widget: "string", required: false }
-      - { label: "Phone", name: "phone", widget: "string", required: false }
-      - { label: "PDF", name: "pdf", widget: "file", required: false, multiple: false }
-      - label: "Delivery Hours"
-        name: "deliveryHours"
-        widget: "list"
-        required: false
-        field: {label: "Day & Time", name: "dayTime", widget: "string"}
-      - { label: "Safety Guides", name: "safetyTips", widget: "string" }
