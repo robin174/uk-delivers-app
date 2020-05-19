@@ -34,6 +34,6 @@ collections:
       - { label: "Cover Image", name: "cover", widget: "image", multiple: false }
       - { label: "Location", name: "location", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Website", name: "website", widget: "string", required: false }
+      - { label: "Website", name: "website", widget: "string" }
       - { label: "Owner", name: "owner", widget: "string" }
       - { label: "Email", name: "email", widget: "string", required: false }

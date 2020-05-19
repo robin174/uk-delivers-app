@@ -46,11 +46,10 @@ export const LocationList = () => {
           return (
             <Grid cols="3">
               {filteredItems.slice(0, locationLimit).map(location => {
-                const { cover, name, description, tags, address, website, phone, file, deliveryHours } = location
+                const { cover, name, description, address, website } = location
                 return (
                   <LocationCard key={name} details={location}>
                     <h4>{name}</h4>
-                    <small>{tags.map((tag, i) => { return (i + 1) == tags.length ? <span key={tag}>{tag}</span> : <span key={tag}>{tag} • </span> })}</small>
                     <p>{description}</p>
                   </LocationCard>
                 )
