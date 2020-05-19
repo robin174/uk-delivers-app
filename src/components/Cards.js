@@ -80,7 +80,7 @@ export const LocationCard = ({ details, children, ...rest }) => {
         {address && <li><MapPin /><p>{address}</p></li>}
       </LocationCardPropList>
       <StyledCardLinks>
-        {website && isURL(website) && <li><StyledCardLinkItem href={`${website}`}><span role="img" aria-label="URL">🔗</span> Order online</StyledCardLinkItem></li>}
+        {website && isURL(website) && <li><StyledCardLinkItem href={`${website}`}><span role="img" aria-label="URL">🔗</span> Find us online</StyledCardLinkItem></li>}
         {email && isEmail(email) && <li><StyledCardLinkItem href={`mailto:${email}`}><span role="img" aria-label="Email">✉️</span> Email us</StyledCardLinkItem></li>}
       </StyledCardLinks>
     </StyledCard>
