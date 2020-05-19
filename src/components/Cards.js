@@ -78,18 +78,10 @@ export const LocationCard = ({ details, children, ...rest }) => {
       </StyledCardBody>
       <LocationCardPropList>
         {address && <li><MapPin /><p>{address}</p></li>}
-        {deliveryHours && deliveryHours.length > 0 && <li>
-          <LocationCardAccordion title={getDeliveryRange(deliveryHours)}>
-            {deliveryHours.map(time => <small key={time}>{time}</small>)}
-          </LocationCardAccordion>
-        </li>}
-        {safetyTips && <li onClick={() => postModalContent(safetyTips)}><AlertCircle /><p>Safety tips</p></li>}
       </LocationCardPropList>
       <StyledCardLinks>
         {website && isURL(website) && <li><StyledCardLinkItem href={`${website}`}><span role="img" aria-label="URL">🔗</span> Order online</StyledCardLinkItem></li>}
         {email && isEmail(email) && <li><StyledCardLinkItem href={`mailto:${email}`}><span role="img" aria-label="Email">✉️</span> Email us</StyledCardLinkItem></li>}
-        {phone && <li><StyledCardLinkItem href={`tel://${phone.replace(/\s/g, '')}`}>{`<span role="img" aria-label="Call">🤙</span> Call ${formatPhone(phone)}`}</StyledCardLinkItem></li>}
-        {file && <li><StyledCardLinkItem href={`/uploads/${file}`}><span role="img" aria-label="">📃</span> Download PDF</StyledCardLinkItem></li>}
       </StyledCardLinks>
     </StyledCard>
   )
