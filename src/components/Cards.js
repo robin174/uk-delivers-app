@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import Cookies from 'universal-cookie';
-import { MapPin, Clock, AlertCircle } from 'react-feather';
+import { MapPin, Clock, Link, AlertCircle } from 'react-feather';
 import { getDeliveryRange, isURL, isEmail, formatPhone } from './Helpers';
 import { useData } from '../context/DataProvider';
 import { ButtonPrimary } from './Buttons';
@@ -78,7 +78,7 @@ export const LocationCard = ({ details, children, ...rest }) => {
       </StyledCardBody>
       <LocationCardPropList>
         {location && <li><MapPin /><p>{location}</p></li>}
-        {website && isURL(website) && <li><MapPin /><p><a href={`${website}`}>Find {name} online</a></p></li>}
+        {website && isURL(website) && <li><Link /><p><a href={`${website}`}>Find {name} online</a></p></li>}
         {/* deliveryHours */}
         {/* safetyTips */}
       </LocationCardPropList>
