@@ -1,9 +1,11 @@
 {
-  "cover": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1589905192/deal-kent-test_myrvkf.jpg",
+  "bio": "Donec varius magna vel orci finibus rhoncus.",
   "name": "Deal Delivers",
+  "owner": "Calypso Rolph",
   "location": "Deal, Kent",
-  "description": "Description here...",
+  "cover": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1589905192/deal-kent-test_myrvkf.jpg",
+  "headshot": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1590162559/0_t0rg26.jpg",
   "website": "https://dealdelivers.com/",
   "email": "hello@dealdelivers.com",
-  "owner": "Calypso Rolph"
+  "description": "In dictum mattis ligula non facilisis. Vestibulum consectetur felis rhoncus, consequat elit sit amet, congue ante. In molestie efficitur metus non vulputate. Donec varius magna vel orci finibus rhoncus."
 }
