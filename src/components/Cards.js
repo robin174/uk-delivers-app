@@ -78,7 +78,6 @@ export const LocationCard = ({ details, children, ...rest }) => {
       </StyledCardBody>
       <LocationCardPropList>
         {location && <li><MapPin /><p>{location}</p></li>}
-        {location && <li><MapPin /><p>{location}</p></li>}
         {website && isURL(website) && <li><MapPin /><p><a href={`${website}`}>Find {name} online</a></p></li>}
         {/* deliveryHours */}
         {/* safetyTips */}
