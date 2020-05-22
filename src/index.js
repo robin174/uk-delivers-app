@@ -4,7 +4,7 @@ import AppProviders from './context';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import './fontAwesome';
+import './fontawesome';
 
 ReactDOM.render(
   <AppProviders>
