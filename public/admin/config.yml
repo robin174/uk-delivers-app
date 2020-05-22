@@ -34,7 +34,11 @@ collections:
       - { label: "Cover Image", name: "cover", widget: "image", multiple: false }
       - { label: "Location", name: "location", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Signup", name: "signup", widget: "string" }
-      - { label: "Website", name: "website", widget: "string" }
-      - { label: "Owner", name: "owner", widget: "string" }
+      - { label: "Website URL", name: "website", widget: "string" }
       - { label: "Email", name: "email", widget: "string", required: false }
+      - { label: "Facebook URL", name: "facebook", widget: "string", required: false }
+      - { label: "Instagram URL", name: "instagram", widget: "string", required: false }
+      - { label: "Twitter URL", name: "twitter", widget: "string", required: false }
+      - { label: "Owner", name: "owner", widget: "string" }
+      - { label: "Biography", name: "bio", widget: "string" }
+      - { label: "Headshot Image", name: "headshot", widget: "image", multiple: false }
