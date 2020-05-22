@@ -1,26 +1,32 @@
 [
   {
-    "safetyTips": "Safety Tips.",
-    "name": "Sample Business",
-    "address": "Park Lane, Reigate RH2",
-    "cover": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1588339806/photo-shore_xeycsl.jpg",
-    "tags": [
-      "Beer",
-      "Food",
-      "Chicken",
-      "Fish",
-      "Veg"
-    ],
+    "cover": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1589905192/deal-kent-test_myrvkf.jpg",
+    "name": "Deal Delivers",
+    "location": "Deal, Kent",
+    "description": "Description here...",
+    "website": "https://dealdelivers.com/",
+    "email": "hello@dealdelivers.com",
+    "owner": "Calypso Rolph",
+    "id": "05-19-deal-delivers"
+  },
+  {
+    "name": "Dulwich Delivers",
+    "location": "Dulwich, London",
+    "description": "With over 100 listings, Dulwich Delivers helps connect those at home with local businesses in South East London, whether in Dulwich, Brockley, Brixton, or beyond. As well as bread, milk, coffee, and veg boxes, you can now order East Dulwich kimchi, sourdough starter, Peckham-made hand sanitiser, or cans of mead. You can find someone to pick up and drop off prescriptions, get compost for your garden, or have a bespoke desk designed and delivered, all contact-free. You can get pictures framed and jewellery repaired, and you can rent toys and gym equipment by the week from businesses who are doing their utmost to enable you to stay safe at home and save lives.",
+    "website": "https://dulwichdelivers.com/",
+    "owner": "Tom Szekeres",
+    "email": "hello@dulwichdelivers.com",
+    "cover": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1590150908/use-east-dulwich_jroltl.jpg",
+    "id": "05-19-dulwich-delivers"
+  },
+  {
+    "name": "Reigate Delivers",
+    "location": "Reigate, Surrey",
     "website": "https://www.reigatedelivers.com",
-    "deliveryHours": [
-      "Monday 10:00 - 16:00",
-      "Tuesday 10:00 - 16:00",
-      "Wednesday 10:00 - 16:00",
-      "Thursday 10:00 - 16:00",
-      "Friday 10:00 - 16:00"
-    ],
-    "email": "robin@reigateelivers.com",
-    "description": "Delete me from the folder 'locations' in 'content'. The respective JSON for each entry will be generated once Cloudinary is up and running.",
-    "id": "05-01-sample-business"
+    "owner": "Robin Green",
+    "email": "hello@reigatedelivers.com",
+    "description": "Description here...",
+    "cover": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1590151319/reigate-3153886_183c9c30_ckosgx.jpg",
+    "id": "05-22-reigate-delivers"
   }
 ]

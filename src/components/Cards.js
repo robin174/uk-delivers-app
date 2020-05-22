@@ -66,7 +66,7 @@ const LocationCardPropList = ({ children }) => {
 }
 
 export const LocationCard = ({ details, children, ...rest }) => {
-  const { cover, name, website, phone, file, address, deliveryHours, safetyTips, email } = details;
+  const { cover, name, website, phone, file, address, deliveryHours, safetyTips, email, signup } = details;
   const { postModalContent } = useData();
   return (
     <StyledCard base="#fff" {...rest}>
@@ -80,8 +80,9 @@ export const LocationCard = ({ details, children, ...rest }) => {
         {address && <li><MapPin /><p>{address}</p></li>}
       </LocationCardPropList>
       <StyledCardLinks>
-        {website && isURL(website) && <li><StyledCardLinkItem href={`${website}`}><span role="img" aria-label="URL">🔗</span> Find us online</StyledCardLinkItem></li>}
-        {email && isEmail(email) && <li><StyledCardLinkItem href={`mailto:${email}`}><span role="img" aria-label="Email">✉️</span> Email us</StyledCardLinkItem></li>}
+        {signup && isURL(signup) && <li><StyledCardLinkItem href={`${signup}`}><span role="img" aria-label="Signup">🔗</span> Signup to {name}</StyledCardLinkItem></li>} 
+        {website && isURL(website) && <li><StyledCardLinkItem href={`${website}`}><span role="img" aria-label="URL">🔗</span> Find {name} online</StyledCardLinkItem></li>}
+        {email && isEmail(email) && <li><StyledCardLinkItem href={`mailto:${email}`}><span role="img" aria-label="Email">✉️</span> Email {name}</StyledCardLinkItem></li>}
       </StyledCardLinks>
     </StyledCard>
   )
