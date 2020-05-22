@@ -1,10 +1,13 @@
 {
+  "facebook": "https://www.facebook.com/reigatedelivers/",
+  "bio": "Robin's bio here.",
   "name": "Reigate Delivers",
-  "location": "Reigate, Surrey",
-  "website": "https://www.reigatedelivers.com",
   "owner": "Robin Green",
-  "email": "hello@reigatedelivers.com",
-  "description": "Description here...",
+  "location": "Reigate, Surrey",
   "cover": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1590151319/reigate-3153886_183c9c30_ckosgx.jpg",
-  "signup": "https://airtable.com/shrsXcIxuoAWsPlJf"
+  "signup": "https://airtable.com/shrsXcIxuoAWsPlJf",
+  "headshot": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1590162446/linkedin-rg-v2_mnhq2t.jpg",
+  "website": "https://www.reigatedelivers.com",
+  "email": "hello@reigatedelivers.com",
+  "description": "Description here..."
 }
