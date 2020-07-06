@@ -30,7 +30,8 @@ collections:
     slug: "{{month}}-{{day}}-{{name}}"
     create: true # Allow users to create new documents in this collection
     fields:
-      - { label: "Name", name: "name", widget: "string" } 
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Order", name: "order", widget: "string" } 
       - { label: "Cover Image", name: "cover", widget: "image", multiple: false }
       - { label: "Location", name: "location", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }

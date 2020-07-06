@@ -21,6 +21,7 @@ const DataProvider = (props) => {
   }
 
   // Imports from static JSON file
+  /* Original 'sort list'
   const getLocations = () => {
     import('../data.json')    
     .then(data => {      
@@ -34,6 +35,23 @@ const DataProvider = (props) => {
     })
     .catch(err => console.log(err));
   }
+  */
+
+    // Imports from static JSON file
+    const getLocations = () => {
+        import('../data.json')    
+        .then(data => {      
+          const array = data.default.slice(0);
+          const sorted = array.sort((a,b) => {
+            const x = a.order.toLowerCase();
+            const y = b.order.toLowerCase();
+            return x < y ? -1 : x > y ? 1 : 0;
+          });
+          setLocations(sorted);
+        })
+        .catch(err => console.log(err));
+      }
+    
 
   return (
     <DataContext.Provider value={{
