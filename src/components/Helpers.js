@@ -34,7 +34,7 @@ export const formatPhone = (str) => {
 }
 
 export const isEmail = (str) => {
-  return str.indexOf('@') != -1 ? str : false
+  return str.indexOf('@') !== -1 ? str : false
 }
 
 const StyledLoadingSpinnerWrap = styled.div`

@@ -85,10 +85,10 @@ export const LocationCard = ({ details, children, ...rest }) => {
         {/* safetyTips */}
       </LocationCardPropList>
       <StyledCardLinks>
-        {email && isEmail(email) && <li><StyledCardLinkItem href={`mailto:${email}`}><span role="img" aria-label="Email">✉️</span> Email {name}</StyledCardLinkItem></li>}
-        {facebook && isURL(facebook) && <li><StyledCardLinkItem href={`${facebook}`}><span role="img" aria-label="Facebook">✏️</span> On Facebook</StyledCardLinkItem></li>} 
-        {instagram && isURL(instagram) && <li><StyledCardLinkItem href={`${instagram}`}><span role="img" aria-label="Instagram">✏️</span> On Instagram</StyledCardLinkItem></li>} 
-        {twitter && isURL(twitter) && <li><StyledCardLinkItem href={`${twitter}`}><span role="img" aria-label="Twitter">✏️</span> On Twitter</StyledCardLinkItem></li>} 
+        {email && isEmail(email) && <li><span role="img" aria-label="Email">✉️</span> <StyledCardLinkItem href={`mailto:${email}`}>Email {name}</StyledCardLinkItem></li>}
+        {facebook && isURL(facebook) && <li><span role="img" aria-label="Facebook">✏️</span> <StyledCardLinkItem href={`${facebook}`}>On Facebook</StyledCardLinkItem></li>} 
+        {instagram && isURL(instagram) && <li><span role="img" aria-label="Instagram">✏️</span> <StyledCardLinkItem href={`${instagram}`}>On Instagram</StyledCardLinkItem></li>} 
+        {twitter && isURL(twitter) && <li><span role="img" aria-label="Twitter">✏️</span> <StyledCardLinkItem href={`${twitter}`}>On Twitter</StyledCardLinkItem></li>} 
       </StyledCardLinks>
     </StyledCard>
   )
