@@ -6,7 +6,7 @@ import { getDeliveryRange, isURL, isEmail, formatPhone } from './Helpers';
 import { useData } from '../context/DataProvider';
 import { ButtonPrimary } from './Buttons';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const CookieNotice = () => {
   const [hasCookie, setHasCookie] = useState();
@@ -80,7 +80,7 @@ export const LocationCard = ({ details, children, ...rest }) => {
       </StyledCardBody>
       <LocationCardPropList>
         {location && <li><MapPin /><p>{location}</p></li>}
-        {website && isURL(website) && <li><FontAwesomeIcon icon='adjust' size='lg' /><p><a href={`${website}`}>Find {name} online</a></p></li>}
+        {website && isURL(website) && <li><p><a href={`${website}`}>Find {name} online</a></p></li>}
         {/* deliveryHours */}
         {/* safetyTips */}
       </LocationCardPropList>

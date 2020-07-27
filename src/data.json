@@ -39,5 +39,31 @@
     "email": "hello@reigatedelivers.com",
     "description": "n dictum mattis ligula non facilisis. Vestibulum consectetur felis rhoncus, consequat elit sit amet, congue ante. In molestie efficitur metus non vulputate. Donec varius magna vel orci finibus rhoncus.",
     "id": "05-22-reigate-delivers"
+  },
+  {
+    "facebook": "https://www.facebook.com/groups/3059248397526431/",
+    "bio": "Lorem ipsum...",
+    "name": "4 Heatons Deliver",
+    "owner": "Olly Summams",
+    "location": "Heatons, Greater Manchester",
+    "cover": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1594040752/use-heatons-Row_kk4cgw.jpg",
+    "headshot": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1594040509/olly-linkedin_raefma.jpg",
+    "website": "https://www.fourheatonsdeliver.com",
+    "email": "fourtheheatons@gmail.com",
+    "description": "Lorem ipsum...",
+    "id": "07-06-4-heatons-deliver"
+  },
+  {
+    "facebook": "https://www.facebook.com/groups/Ashforddelivers/",
+    "bio": "Clair Breen was born and grew up in Ashford and her family remain in the town.  She now lives in the nearby village of Mersham.  She is a TV Producer by trade, but whilst productions are on hold, she wanted to make good use of her time in isolation to do something good for her local community.",
+    "name": "Ashford Delivers",
+    "owner": "Clair Breen",
+    "location": "Ashford, Kent",
+    "cover": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1594039896/use-ashford-kent_tzxeqx.jpg",
+    "headshot": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1594039710/use-claire-breen02_vmlhs5.jpg",
+    "website": "https://ashforddelivers.com/",
+    "email": "ashforddelivers@gmail.com",
+    "description": "Right in the heart of Kent, the famous \"Garden of England\", Ashford has bloomed into a lively, cosmopolitan commercial centre. Officially a market town, Ashford's fortunes took a swift upward turn with the opening of Ashford International railway station in 1996. However, despite all this activity, Ashford retains its rural charm and is surrounded by beautiful villages. You'll find 19th Century windmills and medieval buildings alongside bright shopping centres and trendy restaurants. You're only ever a stroll away from the scent of apple orchards, the sight of rolling hills and the tranquil sound of wild birds singing.",
+    "id": "07-06-ashford-delivers"
   }
 ]
