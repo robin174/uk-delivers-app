@@ -2,6 +2,7 @@
   "facebook": "https://www.facebook.com/reigatedelivers/",
   "bio": "Robin's bio here.",
   "name": "Reigate Delivers",
+  "order": "3",
   "owner": "Robin Green",
   "location": "Reigate, Surrey",
   "cover": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1590151319/reigate-3153886_183c9c30_ckosgx.jpg",
