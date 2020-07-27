@@ -80,15 +80,15 @@ export const LocationCard = ({ details, children, ...rest }) => {
       </StyledCardBody>
       <LocationCardPropList>
         {location && <li><MapPin /><p>{location}</p></li>}
-        {website && isURL(website) && <li><p><a href={`${website}`}>Find {name} online</a></p></li>}
+        {website && isURL(website) && <li><MapPin /><p><a href={`${website}`}>Find {name} online</a></p></li>}
         {/* deliveryHours */}
         {/* safetyTips */}
       </LocationCardPropList>
       <StyledCardLinks>
-        {email && isEmail(email) && <li><span role="img" aria-label="Email">✉️</span> <StyledCardLinkItem href={`mailto:${email}`}>Email {name}</StyledCardLinkItem></li>}
-        {facebook && isURL(facebook) && <li><span role="img" aria-label="Facebook">✏️</span> <StyledCardLinkItem href={`${facebook}`}>On Facebook</StyledCardLinkItem></li>} 
-        {instagram && isURL(instagram) && <li><span role="img" aria-label="Instagram">✏️</span> <StyledCardLinkItem href={`${instagram}`}>On Instagram</StyledCardLinkItem></li>} 
-        {twitter && isURL(twitter) && <li><span role="img" aria-label="Twitter">✏️</span> <StyledCardLinkItem href={`${twitter}`}>On Twitter</StyledCardLinkItem></li>} 
+        {email && isEmail(email) && <li><span role="img" aria-label="Email">✉️</span>&nbsp;&nbsp;<StyledCardLinkItem href={`mailto:${email}`}>Email {name}</StyledCardLinkItem></li>}
+        {facebook && isURL(facebook) && <li><span role="img" aria-label="Facebook">✏️</span>&nbsp;&nbsp;<StyledCardLinkItem href={`${facebook}`}>On Facebook</StyledCardLinkItem></li>} 
+        {instagram && isURL(instagram) && <li><span role="img" aria-label="Instagram">✏️</span>&nbsp;&nbsp;<StyledCardLinkItem href={`${instagram}`}>On Instagram</StyledCardLinkItem></li>} 
+        {twitter && isURL(twitter) && <li><span role="img" aria-label="Twitter">✏️</span>&nbsp;&nbsp;<StyledCardLinkItem href={`${twitter}`}>On Twitter</StyledCardLinkItem></li>} 
       </StyledCardLinks>
     </StyledCard>
   )
@@ -151,7 +151,6 @@ const StyledCardLinks = styled.ul`
   padding:0 var(--spacing-sm);
 `
 const StyledCardLinkItem = styled.a`
-  display:block;
   border-top:1px solid var(--base-light);
   padding:var(--spacing-xs) 0;
   text-decoration:none;
