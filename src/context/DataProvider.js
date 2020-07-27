@@ -20,7 +20,6 @@ const DataProvider = (props) => {
     return modalContent
   }
 
-  // Imports from static JSON file
   /* Original 'sort list'
   const getLocations = () => {
     import('../data.json')    
