@@ -26,10 +26,13 @@ const App = () => {
         <LocationList />
         <Modal />
       </React.Suspense>
+      
       <Container style={{ paddingBottom: '6rem' }}>
+        
         <CalloutCard id="stay-informed">
-          <h2>Stay informed</h2>
-          <p>Sign up for occasional emails from UK Delivers.</p>
+          <h2>Join us</h2>
+          <p>If you're like to create your own listing directory, please <a style={{color: 'white', textTransform:'underline'}} href="mailto:dealdelivers2020@gmail.com" title="Email The Uk Delivers">email us</a> for more information.</p>
+          {/* 
           <MailchimpSubscribe
             url={url}
             render={({ subscribe, status, message }) => (
@@ -40,7 +43,9 @@ const App = () => {
               />
             )}
           />
+          */}
         </CalloutCard>
+
         <ToastContainer />
         <CookieNotice />
       </Container>

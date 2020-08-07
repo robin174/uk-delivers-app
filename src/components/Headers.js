@@ -7,14 +7,11 @@ import { Button } from './Buttons';
 export const Nav = () => {
   return (
     <StyledNav role="navigation">
-      <Button path="https://airtable.com/"> 
-        <span role="img" aria-label="List">📍</span> List your business
-      </Button>
-       <Button path="mailto:me@mytowndelivers.com">
-       <span role="img" aria-label="Email">📧</span> Email us
+       <Button path="mailto:dealdelivers2020@gmail.com">
+       <span role="img" aria-label="Email">📧</span>&nbsp;&nbsp;Email us
        </Button>
        <Button path="https://medium.com/ukdelivers">
-       <span role="img" aria-label="Medium">🙌</span> Follow on Medium
+       <span role="img" aria-label="Medium">🙌</span>&nbsp;&nbsp;Follow on Medium
        </Button>
     </StyledNav>
   )

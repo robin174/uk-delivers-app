@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import Cookies from 'universal-cookie';
-import { MapPin, Clock, AlertCircle } from 'react-feather';
+import { MapPin, Link, Send, Clock, AlertCircle, Twitter, Facebook, Instagram } from 'react-feather';
 import { getDeliveryRange, isURL, isEmail, formatPhone } from './Helpers';
 import { useData } from '../context/DataProvider';
 import { ButtonPrimary } from './Buttons';
@@ -80,15 +80,15 @@ export const LocationCard = ({ details, children, ...rest }) => {
       </StyledCardBody>
       <LocationCardPropList>
         {location && <li><MapPin /><p>{location}</p></li>}
-        {website && isURL(website) && <li><MapPin /><p><a href={`${website}`}>Find {name} online</a></p></li>}
+        {website && isURL(website) && <li><Link /><p><a href={`${website}`} target="_blank" >Find {name} online</a></p></li>}
+        {email && isEmail(email) && <li><Send /><p><a href={`mailto:${email}`}>Email {name}</a></p></li>}
         {/* deliveryHours */}
         {/* safetyTips */}
       </LocationCardPropList>
       <StyledCardLinks>
-        {email && isEmail(email) && <li><span role="img" aria-label="Email">✉️</span>&nbsp;&nbsp;<StyledCardLinkItem href={`mailto:${email}`}>Email {name}</StyledCardLinkItem></li>}
-        {facebook && isURL(facebook) && <li><span role="img" aria-label="Facebook">✏️</span>&nbsp;&nbsp;<StyledCardLinkItem href={`${facebook}`}>On Facebook</StyledCardLinkItem></li>} 
-        {instagram && isURL(instagram) && <li><span role="img" aria-label="Instagram">✏️</span>&nbsp;&nbsp;<StyledCardLinkItem href={`${instagram}`}>On Instagram</StyledCardLinkItem></li>} 
-        {twitter && isURL(twitter) && <li><span role="img" aria-label="Twitter">✏️</span>&nbsp;&nbsp;<StyledCardLinkItem href={`${twitter}`}>On Twitter</StyledCardLinkItem></li>} 
+        {facebook && isURL(facebook) && <li><Facebook/>&nbsp;&nbsp;<StyledCardLinkItem href={`${facebook}`}>On Facebook</StyledCardLinkItem></li>} 
+        {instagram && isURL(instagram) && <li><Instagram />&nbsp;&nbsp;<StyledCardLinkItem href={`${instagram}`}>On Instagram</StyledCardLinkItem></li>} 
+        {twitter && isURL(twitter) && <li><Twitter />&nbsp;&nbsp;<StyledCardLinkItem href={`${twitter}`}>On Twitter</StyledCardLinkItem></li>} 
       </StyledCardLinks>
     </StyledCard>
   )
