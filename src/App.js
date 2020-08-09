@@ -31,7 +31,7 @@ const App = () => {
         
         <CalloutCard id="stay-informed">
           <h2>Join us</h2>
-          <p>If you're like to create your own listing directory, please <a style={{color: 'white', textTransform:'underline'}} href="mailto:dealdelivers2020@gmail.com" title="Email The Uk Delivers">email us</a> for more information.</p>
+          <p>If you would like to create your own listing directory, please <a style={{color: 'white', textTransform:'underline'}} href="mailto:dealdelivers2020@gmail.com" title="Email The Uk Delivers">email us</a> for more information.</p>
           {/* 
           <MailchimpSubscribe
             url={url}
