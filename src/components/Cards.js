@@ -73,7 +73,7 @@ export const LocationCard = ({ details, children, ...rest }) => {
   return (
     <StyledCard base="#fff" {...rest}>
       <StyledCardImageWrap>
-        <img src={cover} alt={name} />
+        <a target="_blank" href={`${website}`}><img src={cover} alt={name} /></a>
       </StyledCardImageWrap>
       <StyledCardBody>
         {children}
@@ -86,9 +86,9 @@ export const LocationCard = ({ details, children, ...rest }) => {
         {/* safetyTips */}
       </LocationCardPropList>
       <StyledCardLinks>
-        {facebook && isURL(facebook) && <li><Facebook/>&nbsp;&nbsp;<StyledCardLinkItem href={`${facebook}`}>On Facebook</StyledCardLinkItem></li>} 
-        {instagram && isURL(instagram) && <li><Instagram />&nbsp;&nbsp;<StyledCardLinkItem href={`${instagram}`}>On Instagram</StyledCardLinkItem></li>} 
-        {twitter && isURL(twitter) && <li><Twitter />&nbsp;&nbsp;<StyledCardLinkItem href={`${twitter}`}>On Twitter</StyledCardLinkItem></li>} 
+        {facebook && isURL(facebook) && <li><Facebook/>&nbsp;&nbsp;<StyledCardLinkItem href={`${facebook}`}>On Facebook</StyledCardLinkItem></li>}
+        {instagram && isURL(instagram) && <li><Instagram />&nbsp;&nbsp;<StyledCardLinkItem href={`${instagram}`}>On Instagram</StyledCardLinkItem></li>}
+        {twitter && isURL(twitter) && <li><Twitter />&nbsp;&nbsp;<StyledCardLinkItem href={`${twitter}`}>On Twitter</StyledCardLinkItem></li>}
       </StyledCardLinks>
     </StyledCard>
   )
