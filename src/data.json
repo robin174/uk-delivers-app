@@ -1,15 +1,17 @@
 [
   {
-    "bio": "Donec varius magna vel orci finibus rhoncus.",
+    "facebook": "https://www.facebook.com/groups/DealDelivers/",
+    "bio": "Calypso Rose is an entrepreneur and started the first UK Delivers in the small, seaside town of Deal. Previously ITV’s Young Business Person of the Year, and founder of experience gift company ‘The Indytute’. The Indytute mantra is ‘Give Good Times’ — real-life experiences over ‘stuff’. ",
     "name": "Deal Delivers",
     "order": "1",
+    "instagram": "https://www.instagram.com/dealdelivers/",
     "owner": "Calypso Rolph",
     "location": "Deal, Kent",
     "cover": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1589905192/deal-kent-test_myrvkf.jpg",
     "headshot": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1590162559/0_t0rg26.jpg",
     "website": "https://dealdelivers.com/",
     "email": "hello@dealdelivers.com",
-    "description": "In dictum mattis ligula non facilisis. Vestibulum consectetur felis rhoncus, consequat elit sit amet, congue ante. In molestie efficitur metus non vulputate. Donec varius magna vel orci finibus rhoncus.",
+    "description": "Deal Delivers has gone from strength to strength with over 110 local business listings and with 17% of the towns residents using the Deal Delivers Facebook page. The community is determined to shop locally for everything from Sourdough to Stick Insects!",
     "id": "05-19-deal-delivers"
   },
   {
@@ -25,7 +27,7 @@
     "headshot": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1590162559/0_t0rg26.jpg",
     "website": "https://dulwichdelivers.com/",
     "email": "hello@dulwichdelivers.com",
-    "description": "With over 100 listings, Dulwich Delivers helps connect those at home with local businesses in South East London, whether in Dulwich, Brockley, Brixton, or beyond. As well as bread, milk, coffee, and veg boxes, you can now order East Dulwich kimchi, sourdough starter, Peckham-made hand sanitiser, or cans of mead.",
+    "description": "With over 140 listings, Dulwich Delivers helps connect those at home with local businesses in South East London, whether in Dulwich, Peckham, Brockley, Brixton, or beyond. As well as bread, milk, coffee, and veg boxes, you can now order kimchi, sourdough starter, Peckham-made hand sanitiser, or cans of mead.",
     "id": "05-19-dulwich-delivers"
   },
   {
@@ -40,21 +42,21 @@
     "headshot": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1590162446/linkedin-rg-v2_mnhq2t.jpg",
     "website": "https://www.reigatedelivers.com",
     "email": "hello@reigatedelivers.com",
-    "description": "n dictum mattis ligula non facilisis. Vestibulum consectetur felis rhoncus, consequat elit sit amet, congue ante. In molestie efficitur metus non vulputate. Donec varius magna vel orci finibus rhoncus.",
+    "description": "Nestled under the North Downs, Reigate's high street boasts many independent shops and businesses. With well over 60 listings Reigate Delivers has helped those businesses reach an even larger audience as they adapt to delivery and collection.",
     "id": "05-22-reigate-delivers"
   },
   {
     "facebook": "https://www.facebook.com/groups/3059248397526431/",
-    "bio": "Lorem ipsum...",
-    "name": "4 Heatons Deliver",
+    "bio": " As a first time mum during lockdown, community and networking have become a lifeline for Nina, it has enabled her to discover local gems and meet new friends. Using her background in social media and marketing, her mission is to keep her local community connected using the power of The Delivers platform.",
+    "name": "Four Heatons Deliver",
     "order": "5",
-    "owner": "Olly Summams",
+    "owner": "Nina Sussams",
     "location": "Heatons, Greater Manchester",
     "cover": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1594040752/use-heatons-Row_kk4cgw.jpg",
     "headshot": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1594040509/olly-linkedin_raefma.jpg",
     "website": "https://www.fourheatonsdeliver.com",
     "email": "fourtheheatons@gmail.com",
-    "description": "Nestled in between Manchester and Stockport, The Heatons is full of independent businesses and a close-knit community. Our goal at FourHeatonsDeliver is to ensure local people discover the variety of businesses on their doorsteps (or contact free collection).",
+    "description": "Nestled in between Manchester and Stockport, The Heatons is full of independent businesses and a close-knit community. Our goal at Four Heatons Deliver is to ensure local people discover the variety of businesses on their doorsteps (or contact free collection).",
     "id": "07-06-4-heatons-deliver"
   },
   {
