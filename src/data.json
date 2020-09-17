@@ -12,7 +12,7 @@
     "website": "https://dealdelivers.com/",
     "email": "hello@dealdelivers.com",
     "description": "Deal Delivers has gone from strength to strength with over 110 local business listings and with 17% of the towns residents using the Deal Delivers Facebook page. The community is determined to shop locally for everything from Sourdough to Stick Insects!",
-    "id": "05-19-deal-delivers"
+    "id": "2020-05-19-deal-delivers"
   },
   {
     "facebook": "https://www.facebook.com/dulwichdelivers/",
@@ -28,7 +28,7 @@
     "website": "https://dulwichdelivers.com/",
     "email": "hello@dulwichdelivers.com",
     "description": "With over 140 listings, Dulwich Delivers helps connect those at home with local businesses in South East London, whether in Dulwich, Peckham, Brockley, Brixton, or beyond. As well as bread, milk, coffee, and veg boxes, you can now order kimchi, sourdough starter, Peckham-made hand sanitiser, or cans of mead.",
-    "id": "05-19-dulwich-delivers"
+    "id": "2020-05-19-dulwich-delivers"
   },
   {
     "facebook": "https://www.facebook.com/reigatedelivers/",
@@ -43,7 +43,7 @@
     "website": "https://www.reigatedelivers.com",
     "email": "hello@reigatedelivers.com",
     "description": "Nestled under the North Downs, Reigate's high street boasts many independent shops and businesses. With well over 60 listings Reigate Delivers has helped those businesses reach an even larger audience as they adapt to delivery and collection.",
-    "id": "05-22-reigate-delivers"
+    "id": "2020-05-22-reigate-delivers"
   },
   {
     "facebook": "https://www.facebook.com/groups/3059248397526431/",
@@ -57,7 +57,7 @@
     "website": "https://www.fourheatonsdeliver.com",
     "email": "fourtheheatons@gmail.com",
     "description": "Nestled in between Manchester and Stockport, The Heatons is full of independent businesses and a close-knit community. Our goal at Four Heatons Deliver is to ensure local people discover the variety of businesses on their doorsteps (or contact free collection).",
-    "id": "07-06-4-heatons-deliver"
+    "id": "2020-07-06-4-heatons-deliver"
   },
   {
     "facebook": "https://www.facebook.com/groups/Ashforddelivers/",
@@ -71,7 +71,7 @@
     "website": "https://ashforddelivers.com/",
     "email": "ashforddelivers@gmail.com",
     "description": "Right in the heart of Kent, the famous \"Garden of England\", Ashford has bloomed into a lively, cosmopolitan commercial centre. Officially a market town, Ashford's fortunes took a swift upward turn with the opening of Ashford International railway station in 1996. However, despite all this activity, Ashford retains its rural charm and is surrounded by beautiful villages. You'll find 19th Century windmills and medieval buildings alongside bright shopping centres and trendy restaurants. You're only ever a stroll away from the scent of apple orchards, the sight of rolling hills and the tranquil sound of wild birds singing.",
-    "id": "07-06-ashford-delivers"
+    "id": "2020-07-06-ashford-delivers"
   },
   {
     "bio": "Loem ipsum",
@@ -83,6 +83,6 @@
     "headshot": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1590162446/linkedin-rg-v2_mnhq2t.jpg",
     "website": "www.lorem.co.uk",
     "description": "Lorem ipsum",
-    "id": "09-17-2020-robin-land"
+    "id": "2020-09-17-2020-robin-land"
   }
 ]
