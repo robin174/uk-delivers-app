@@ -72,5 +72,17 @@
     "email": "ashforddelivers@gmail.com",
     "description": "Right in the heart of Kent, the famous \"Garden of England\", Ashford has bloomed into a lively, cosmopolitan commercial centre. Officially a market town, Ashford's fortunes took a swift upward turn with the opening of Ashford International railway station in 1996. However, despite all this activity, Ashford retains its rural charm and is surrounded by beautiful villages. You'll find 19th Century windmills and medieval buildings alongside bright shopping centres and trendy restaurants. You're only ever a stroll away from the scent of apple orchards, the sight of rolling hills and the tranquil sound of wild birds singing.",
     "id": "07-06-ashford-delivers"
+  },
+  {
+    "bio": "Lorem ipsum",
+    "name": "Robin Test",
+    "order": "0",
+    "owner": "Robin Green",
+    "location": "Robin Land",
+    "cover": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1590758387/use-greensleeves_bmrcjd.jpg",
+    "headshot": "https://res.cloudinary.com/reigate-delivers/image/upload/c_limit,f_auto,q_80,w_500/v1590162446/linkedin-rg-v2_mnhq2t.jpg",
+    "website": "www.robin.co.uk",
+    "description": "Lorem ipsum.",
+    "id": "09-17-robin-test"
   }
 ]
